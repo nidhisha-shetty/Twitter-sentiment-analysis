@@ -28,4 +28,4 @@ for x in twi_li_count:
 		b.append(twi_li_count[x])
 key_max=max(b)
 max_words = [key for key,value in twi_li_count.items() if value==key_max]
-print("The overall sentiment analysis: "+ max_words[0])
+print("The overall sentiment analysis: "+ str(*max_words))
